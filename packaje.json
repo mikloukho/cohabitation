@@ -1,0 +1,12 @@
+{
+    "name": "laravel",
+    "version": "0.2.0",
+    "private": true,
+    "scripts": {
+        "prepare:app": "cd resources/frontend && npm install",
+        "serve:app": "cd resources/frontend && npm run serve",
+        "build:app": "cd resources/frontend && npm run build",
+        "lint:app": "cd resources/frontend && npm run lint",
+        "test:app": "cd resources/frontend && npm run test:unit",
+    }
+}
